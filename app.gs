@@ -1,7 +1,7 @@
 //LINE Developersで取得したアクセストークンを入れる
 var CHANNEL_ACCESS_TOKEN = 'ACCESS_TOKEN'; 
 
-var ss = SpreadsheetApp.openById('1SCrl_f5r8V2FdeuT9dTGTrXUVUt4qfgg7JlsWlNxBEY');
+var ss = SpreadsheetApp.openById('SPREAD_SHEET_ID');
 var sh = ss.getSheetByName("dictionary");
 //ポストで送られてくるので、送られてきたJSONをパース
 function doPost(e) {
